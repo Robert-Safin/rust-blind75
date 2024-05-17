@@ -1,6 +1,7 @@
 mod problems;
 
 fn main() {
-  problems::array_string::
-  merge_strings_alternately_1786::merge_alternately("abc".to_owned(), "pqr".to_owned());
+    problems::array_string::String_Compression_443::compress(&mut vec![
+        'a', 'a', 'b', 'b', 'c', 'c', 'c',
+    ]);
 }

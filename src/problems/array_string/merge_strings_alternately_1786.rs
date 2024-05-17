@@ -1,10 +1,12 @@
 pub fn merge_alternately(word1: String, word2: String) -> String {
     let mut build_string = String::new();
 
+    // create iterators for each str
     let mut iter1 = word1.chars();
     let mut iter2 = word2.chars();
 
     loop {
+        // iterate and match accordingly
         match (iter1.next(), iter2.next()) {
             (Some(c1), Some(c2)) => {
                 build_string.push(c1);
