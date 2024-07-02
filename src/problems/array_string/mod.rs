@@ -1,3 +1,5 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
 pub mod Merge_Strings_Alternately_1786;
 pub mod Greatest_Common_Divisor_of_Strings_1071;
 pub mod Kids_With_the_Greatest_Number_of_Candies_1431;
